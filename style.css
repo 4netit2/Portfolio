@@ -1,0 +1,96 @@
+html {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #2d3c49;
+}
+
+body {
+	background: #d9d9d9;
+	margin: 30px 50px;
+	line-height: 1.4;
+
+}
+
+.udacity {
+    width: 140px;
+ }
+ 
+ .name {
+    float: right;
+    text-transform: uppercase;
+    color: #2d3c49;
+ }
+ 
+ .name h1 {
+    font-size: 3.5em;
+    margin: 0;
+ }
+ 
+ .name p {
+    float: right;
+    margin-bottom: 25px;
+ }
+ 
+ .border {
+    border-bottom: 3px solid #7d97ad;
+ }
+
+img{
+	max-width: 100%;
+}
+
+.picture {
+  margin-top: 3px;
+  width: 100%;
+}
+
+.pict {
+  width: 100%;
+}
+
+
+/*Portfolio*/
+
+.portfolio {
+	margin-top: 15px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.box {
+	background: #ddd;
+	text-align:center;
+	padding: 1.5rem 2rem;
+	box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+/*Footer*/
+
+footer {
+	margin-top: 2rem;
+	background: #2d3c49;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+}
+
+
+/*Media*/
+
+@media(max-width: 750px){
+	.picture{
+		grid-template-areas: 
+		 'part part' ;
+		 
+	}	
+
+
+@media(max-width: 550px){
+	.picture{
+		grid-template-areas: 
+		 'part' ;
+
+	}
+
